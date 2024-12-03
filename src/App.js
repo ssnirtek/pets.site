@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Cart from "./components/kart";
+import Karts2 from "./components/karts";
+import Pod from "./components/pod";
+import Pod2 from "./components/pod2";
+import Accaunt from "./pages/accaunt";
+import DobavPage from "./pages/dobavpage";
+import Glavn from "./pages/glavnaya";
+import Poisk from "./pages/poisk";
+import Reg from "./pages/reg";
+import app from "./components/app.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Glavn/>
+     </div>
   );
 }
 
